@@ -1,0 +1,324 @@
+    /* media query width 1200px To 1400px */
+    
+@media (min-width:1200px) and (max-width:1400px){
+    /* section-second media css started here  */
+    .section-second-title p {
+    font-size: 18px;
+    }
+    /* section-third  */
+    .cards{
+        padding: 0px 60px;
+    }
+}
+
+/* media query width 992px To 1200px */
+
+@media (min-width:992px) and (max-width:1200px){
+
+/* section-first */
+.section-first-title h2 {
+font-size: 41px;
+}
+.section-first-title h1 {
+font-size: 40px;
+}
+
+/* section-second */
+.section-second-title p {
+    font-size: 15px;
+    }
+.section-second-title h1 {
+    font-size: 56px;
+    }
+    /* section-third card-sections */
+.setting-card, .speedup-card, .backups-card, .ssl-card, .database-card, .privacy-card {
+        width: 40%;
+    }
+}
+
+/* media query width 768px To 992px */
+
+    @media (min-width:768px) and (max-width:992px){
+        /* section-first */
+.section-first {
+    padding: 70px 95px 0px;
+    }
+.section-first-title h2 {
+    font-size: 29px;
+    }
+    .section-first-title h1 {
+    font-size: 27px;
+    }
+    .section-first-title p {
+    font-size: 15px;
+    }
+    .section-first-title, .section-first-image {
+        width: 50%;
+    }
+
+    /* section-second */
+    .section-second-title p {
+        font-size: 10px;
+        }
+    .section-second-title h1 {
+        font-size: 41px;
+        }
+        .About-child {
+            font-size: 25px;
+        }
+        .section-second-title button {
+            padding: 7px 21px;
+            font-size: 13px;
+        }
+        /* section-third  */
+        .services {
+            padding: 0px 0px 60px;
+        }
+        .services h1 {
+            font-size: 33px;
+        }
+        .services p {
+            font-size: 27px;
+        }
+        .cards{
+            padding: 0px 47px 0;
+        }
+        .backups-card, .ssl-card, .speedup-card, .setting-card, .privacy-card , .database-card {
+            width: 40%;
+        }
+        .cards p {
+            font-size: 14px;
+        }
+        .cards h3 {
+            font-size: 22px;
+        }
+        /* footer */
+        .footer-title h1 {
+            font-size: 39px;
+        }
+        .footer-title p {
+            font-size: 28px;
+        }
+    }
+/* media query width 576px To 768px */
+
+    @media (min-width:576px) and (max-width:768px){
+        header h1{
+            font-size: 24px;
+            padding-top: 6px;
+
+        }
+        /* section-first */
+.section-first {
+    padding: 70px 95px 0px;
+    flex-direction: column-reverse;
+    text-align: center;
+    }
+.section-first-title h2 {
+    font-size: 22px;
+    }
+    .section-first-title h1 {
+    font-size: 22px;
+    }
+    .section-first-title p {
+    font-size: 12px;
+    }
+    .section-first-title {
+        width: 100%;
+    }
+    .section-first-title button {
+        padding: 6px 18px;
+        font-size: 12px;
+        width: 100%;
+    }
+    .section-first-image {
+        width: 100%;
+    }
+    /* section-second */
+    .section-second-img {
+        width: 100%;
+    }
+    .section-second{
+        text-align: center;
+        padding: 0px 95px;
+    }
+    .section-second img {
+        width: 100%;
+    }
+    .section-second-title {
+        width: 100%;
+        /* margin: 0px 100px; */
+        }
+    .section-second-title p {
+        font-size: 14px;
+        }
+    .section-second-title h1 {
+        font-size: 35px;
+        }
+        .About-child {
+            font-size: 23px;
+            padding-top: 45px;
+        }
+        .section-second-title button {
+            padding: 7px 21px;
+            font-size: 13px;
+            width: 100%;
+        }
+        /* section-third  */
+        .services {
+            padding: 0px 0px 60px;
+        }
+        .services h1 {
+            font-size: 25px;
+        }
+        .services p {
+            font-size: 22px;
+        }
+        .cards{
+            padding: 0px 92px 0;
+        }
+        .setting-card, .speedup-card, .privacy-card, .backups-card, .ssl-card, .database-card {
+            width: 100%;
+        }
+        .cards p {
+            font-size: 14px;
+        }
+        .cards h3 {
+            font-size: 22px;
+        }
+        /* footer */
+        .footer-form{
+            justify-content: stretch;
+            padding: 45px 88px;
+        }
+        .footer-title h1 {
+            font-size: 30px;
+        }
+        .footer-title p {
+            font-size: 22px;
+        }
+        .footer-form input {
+            width: 100%;
+            margin: 9px 0px;
+        }
+        footer button {
+            width: 100%;
+        }
+    }
+    /* media query width  576px */
+    @media (max-width:576px){
+        header{
+            margin: 0px 25px;
+        }
+        header h1{
+            font-size: 24px;
+        }
+        .navbar{
+            font-size: 12px;
+        }
+        /* section-first */
+.section-first {
+    padding: 0px 0px;
+    text-align: center;
+    flex-direction: column-reverse;
+    }
+.section-first-title h2 {
+    font-size: 20px;
+    }
+    .section-first-title h1 {
+    font-size: 19px;
+    }
+    .section-first-title p {
+    font-size: 11px;
+    }
+    .section-first-title {
+        width: 100%;
+        padding: 50px 25px 0px;
+    }
+    .section-first-title button {
+        padding: 5px 8px;
+        font-size: 8px;
+        width: 100%;
+    }
+    .section-first-image {
+        width: 100%;
+        padding: 0px 25px;
+    }
+    .section-first img {
+        width: 100%;
+    }
+    /* section-second */
+    .section-second {
+        text-align: center;
+    }
+    .section-second-img {
+        width: 100%;
+        padding: 0px 25px;
+    }
+    .section-second img {
+        width: 100%;
+    }
+    .section-second-title {
+        width: 100%;
+        margin: 0px 25px;
+        }
+    .section-second-title p {
+        font-size: 11px;
+        padding: 9px 0px;
+        }
+    .section-second-title h1 {
+        font-size: 20px;
+        }
+        .About-child {
+            font-size: 12px;
+            padding: 25px 0px;
+        }
+        .section-second-title button {
+            padding: 5px 11px;
+            font-size: 8px;
+            width: 100%;
+        }
+        /* section-third  */
+       
+        .services h1 {
+            font-size: 17px;
+        }
+        .services p {
+            font-size: 12px;
+        }
+        .cards{
+            padding: 0px 25px 0;
+        }
+        .setting-card, .speedup-card, .privacy-card, .backups-card, .ssl-card, .database-card {
+            width: 100%;
+        }
+        .cards p {
+            font-size: 11px;
+        }
+        .cards h3 {
+            font-size: 18px;
+        }
+        .cards span {
+            font-size: 35px;
+        }
+        /* footer */
+        .footer-form {
+            font-size: 13px;
+            padding: 45px 25px;
+            display: block;
+        }
+        .footer-title h1 {
+            font-size: 20px;
+        }
+        .footer-title p {
+            font-size: 15px;
+        }
+        .footer-form input {
+            width: 100%;
+            font-size: 11px;
+            margin: 7px 0px;
+        }
+        footer button {
+            width: 100%;
+        }
+    }

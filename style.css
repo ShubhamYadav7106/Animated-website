@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300&family=Titillium+Web&display=swap');
+
+/* Responsuve website using HTML and CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+:root {
+    --dark: black;
+}
+
+
+/* header css started here */
+header {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--dark);
+    margin: 0px 95px;
+    padding: 7px 17px;
+}
+
+header h1 {
+    color: rgb(226, 0, 0);
+    cursor: pointer;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar li {
+    list-style: none;
+    padding: 12px 11px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: rgb(165, 165, 165);
+}
+
+.navbar li a:hover {
+    color: white;
+}
+
+
+
+/* section-first css started here  */
+.section-first {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 70px 95px;
+}
+
+.section-first-title {
+    width: 50%;
+}
+
+.section-first-image {
+    width: 50%;
+}
+
+.section-first-title h2 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.section-first-title h1 {
+    font-size: 48px;
+    font-weight: 500;
+    color: blue;
+    text-shadow: 0px 0px 16px blue;
+}
+
+.section-first-title p {
+    padding: 10px 0px 30px 0px;
+}
+
+.section-first-title button {
+    padding: 8px 21px;
+    font-size: 20px;
+    background-color: #1a75c1;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.section-first-title button:hover {
+    background-color: #00326d;
+}
+
+/* section-second teg started here */
+.About-child {
+    text-align: center;
+    font-size: 42px;
+}
+
+.About-child h1 {
+    font-weight: 400;
+    color: #ee5555;
+}
+
+.section-second-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-second-title h1 {
+    font-size: 69px;
+    font-weight: 400;
+    text-shadow: 0px 0px 15px blue;
+}
+.section-second-title{
+    width: 50%;
+    padding: 50px 0;
+}
+
+.section-second-title p {
+    font-size: 21px;
+    padding: 15px 0px 50px;
+}
+
+.section-second-img{
+    width: 50%;
+} 
+
+.section-second-title button {
+    padding: 8px 24px;
+    font-size: 20px;
+    background-color: #d74e4e;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.section-second-title button:hover {
+    background-color: #8c2020;
+}
+
+/* section-third css started here  */
+.services {
+    text-align: center;
+    justify-content: center;
+}
+
+.services h1 {
+    font-size: 45px;
+    color: #ee5555;
+}
+
+.services p {
+    font-size: 35px;
+}
+
+.cards {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0px 49px;
+}
+
+.cards h3 {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.cards p {
+    font-size: 18px;
+}
+
+.setting-card, .speedup-card, .privacy-card, .backups-card, .ssl-card, .database-card  {
+    border-radius: 10px;
+    box-shadow: 0px 0px 27px #ceced8;
+    padding: 5px 50px 20px;
+    margin: 40px 0px;
+}
+
+.setting-card span {
+    font-size: 50px;
+}
+
+
+.speedup-card span {
+    background-color: lightblue;
+    font-size: 50px;
+}
+
+.privacy-card span {
+    font-size: 50px;
+}
+
+.backups-card span {
+    background-color: orange;
+    font-size: 50px;
+}
+
+.ssl-card span {
+    background-color: indigo;
+    font-size: 50px;
+}
+
+.database-card span {
+    background-color: #99f85b;
+    font-size: 50px;
+}
+
+.material-symbols-outlined {
+    filter: drop-shadow(2px 4px 7px black);
+    background-color: #5a5aff;
+    border-radius: 22px;
+    color: white;
+}
+
+/* footer css started here  */
+.footer-title {
+    text-align: center;
+}
+
+.footer-title h1 {
+    font-size: 50px;
+    color: #ee5555;
+    font-weight: 400;
+}
+
+.footer-title p {
+    font-size: 34px;
+}
+
+.footer-form {
+    display: grid;
+    justify-content: center;
+    padding: 45px 0px;
+}
+
+.footer-form input {
+    padding: 10px 0px;
+    width: 500px;
+    margin: 12px 0px;
+    padding-left: 5px;
+}
+
+footer button {
+    padding: 8px 0px;
+    width: 50%;
+    margin: 15px 0px;
+    color: white;
+    border: none;
+    background-color: #eb4e4e;
+    cursor: pointer;
+}
+footer button:hover{
+    background-color:#8c2020;
+}
